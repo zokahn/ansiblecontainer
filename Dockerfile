@@ -13,4 +13,4 @@ RUN curl -s https://mirror.openshift.com/pub/openshift-v4/clients/helm/latest/he
 
 RUN pip3 install --upgrade pip && pip3 install openshift kubernetes==17.17.0 PyYAML==5.4.1 passlib==1.7.4 ansible==4.2.0 ansible-core==2.11.2
 
-ENTRYPOINT [“ansible-playbook”]
+ENTRYPOINT ["ansible-playbook"]
